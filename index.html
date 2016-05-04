@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--   mobile viewport tags  -->
+  <meta name="viewport" content="width=device-width" />
+  <meta name="format-detection" content="telephone=no" />
+<!--   HTML5 tag -->
+  <meta charset="UTF-8">
+<!--   ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional bootstrap theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!--  my CSS -->
+  <link rel="stylesheet" href="campOldNavy.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  <!--   jQuery  -->
+  <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
+
+  <!--   ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+<section id= "kids-dream-big">
+<div>
+<img class="camp-old-navy-logo" src="imgs/CON_LOGO_vector.svg"><img/>
+<img class="plane" src='imgs/plane-banner.png'></img>
+
+<div>
+<div class='skinny-promo'>
+<p>Use your Gap Brand Card in-store or Online at Old Navy and we will donate 1% of your total purchase to support This Way Ahead.</p>
+</div>
+<div class='row bucket-nav'>
+<ul class="nav-group">
+<a class="smoothScroll" href="#kids-dream-big"><li class="nav-item camp"> <img class="logo" src="imgs/CON_LOGO_vector.svg"><img/></li></a>
+<a class="smoothScroll" href="#kids-safety "><li class="nav-item"><img class="nav-item-icon"src="imgs/cross.jpg"></img><p class="nav-text">KIDS SAFETY</p></li></a>
+<a class="smoothScroll" href="#brain-gain "><li class="nav-item"><img class="nav-item-icon"src="imgs/cross.jpg"></img><p class="nav-text">BRAIN GAIN</p></li></a>
+<a class="smoothScroll" href="#this-way-ahead"><li class="nav-item"><li class="nav-item"><img class="nav-item-icon"src="imgs/cross.jpg"></img><p class="nav-text">THIS WAY AHEAD</p>
+</li></a>
+</ul>
+</div>
+
+
+
+
+
+
+<div class="promo-div">
+
+<i class="fa fa-times" aria-hidden="true"></i>
+<a href="http://www.oldnavy.com/" target="_blank"><img class="promo-cloud-2" src="imgs/shop-old-navy.png"><img/></a>
+</div>
+
+  
+<div id="kids-dream-big-group">
+<div class="kids">KIDS </div>
+<div class="dream">DREAM</div>
+<div class="big">BIG</div>
+<div class="so-do-we">(and so do we)</div>
+<div class="all-kids-deserve"> All kids deserve the chance to make their dreams real.<br> Since 1999 Camp Old Navy has offered kids the education and real-life <br> experiences they need to turn dreams into goals they can reach.</div>
+<a class='smoothScroll' href="#three-buckets"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+
+</div>
+
+
+
+
+<section id= "three-buckets">
+<div class='row bucket-group'>
+
+<a class="smoothScroll" href="#kids-safety"><div class=' bucket-1 col-md-3'>
+<p><img src="imgs/cross.jpg"></img></p>
+<p>KIDS SAFETY </p>
+<p class="grades">LITTLES 2-5 </p>
+<p class="mini-bucket">All kids deserve the chance to make their dreams real. Since 1999 Camp Old Navy has offered kids the education and real-life experiences they need to turn dreams into goals they can reach.All kids deserve the chance to make their dreams real.</p>
+
+<i class="fa fa-chevron-down" aria-hidden="true"></i>
+
+</div>
+
+</a>
+
+
+<a class="smoothScroll" href=" #brain-gain "><div class='bucket-2 col-md-3'>
+<p><img src="imgs/cross.jpg"></img></p>
+<p>BRAIN GAIN</p>
+<p class="grades">MIDDLES 6-15 </p>
+<p class="mini-bucket">All kids deserve the chance to make their dreams real. Since 1999 Camp Old Navy has offered kids the education and real-life experiences they need to turn dreams into goals they can reach.All kids deserve the chance to make their dreams real.</p>
+
+<i class="fa fa-chevron-down" aria-hidden="true"></i>
+</div>
+</a>
+
+
+<a class="smoothScroll" href="#this-way-ahead"><div class='bucket-3 col-md-3'>
+<p><img src="imgs/cross.jpg"></img></p>
+<p>THIS WAY AHEAD</p>
+<p class="grades">BIGS 16-24 </p>
+<p class="mini-bucket">All kids deserve the chance to make their dreams real. Since 1999 Camp Old Navy has offered kids the education and real-life experiences they need to turn dreams into goals they can reach.All kids deserve the chance to make their dreams real.'</p>
+
+<i class="fa fa-chevron-down" aria-hidden="true"></i>
+</div>
+</a>
+</div>
+
+
+</section >
+</section>
+
+<section id= "brain-gain">
+</section>
+
+<section id= "this-way-ahead">
+</section>
+
+<section id= "kids-safety">
+</section>
+
+  </body>
+
+  <script>
+
+
+$(window).scroll(function(){
+  if($(document).scrollTop() > 620){
+   $('img.plane').fadeOut(200);
+  
+   $('ul.nav-group').fadeIn(200);
+   $('img.camp-old-navy-logo').fadeOut(200);
+   $('div.promo-cloud-1').fadeOut(200);
+   
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 620){
+   $('img.plane').fadeIn(200);
+ 
+   $('ul.nav-group').fadeOut(200);
+   $('div.skinny-promo').fadeOut(200);
+   $('img.camp-old-navy-logo').fadeIn(200);
+   $('div.promo-cloud-1').fadeIn(200);
+  }
+});
+
+
+
+$(function() {
+  $('.fa-times').click(function() {
+    $("#kids-dream-big-group").css({'margin-left':'0px'});
+    $('.promo-div').css({'display':'none'});
+  });
+  });
+
+$(function() {
+  // This will select everything with the class smoothScroll
+  // This should prevent problems with carousel, scrollspy, etc...
+  $('.smoothScroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+
+
+
+
+
+  </script>
+
+  </html>
