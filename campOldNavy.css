@@ -55,19 +55,20 @@
     overflow-x: hidden !important;
   }
 
+body{
+  font-family:sans-serif;
+  background-image: url("imgs/cloud-cover.png");
+
+}
 
 
   /*Styling for page */
 
 
 
-  #kids-dream-big{
-    background-image: url("imgs/cloud-cover.png");
-    background-repeat: repeat-x, repeat-y;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  #brain-gain{
+ background-color: white;
+
    
   }
 
@@ -76,14 +77,27 @@
     position: fixed;
     margin-top: 40px;
      margin-left: 60px;
-  
+  }
+
+ .back-to-top, .logo{
+  display: inline;
+ }
+
+  img.back-to-top{
+    width: 2%;
+    margin-bottom: -5px;
+    margin-right: 7%;
+  }
+
+  img.shop-old-navy{
+    margin-bottom: -15px;
+    max-width: 9%;
   }
 
   .logo{
-    width: 5%;
-    position: fixed;
-    margin-top: -20px;
-    margin-left: -300px;
+        height: 70%;
+        margin-left: 7%;
+
   }
 
 
@@ -92,23 +106,25 @@
   #kids-dream-big-group{
      text-align: center;
     color: #EF422E;
-    font-family: sans-serif;
-    margin-left: 410px;    
+    font-family: sans-serif;  
     text-align: center;
 
   }
 
 
-  .kids{
-    font-size:24px;
-    margin-top: 220px;
-    font-weight:600;
-  }
+.kids {
+       position: absolute;
+    margin-left: -40px;
+    margin-top: -145px;
+}
 
-  .dream{
-    font-size:48px;
-    font-weight:600;
-  }
+.dream{
+     position: absolute;
+    margin-left: -100px;
+    margin-top: -85px;
+
+}
+
 
   .big{
     font-size:150px;
@@ -129,26 +145,63 @@
   }
 
 
+/*cloud promo*/
+.cloud-promo{
+  float: right; 
+  margin-top: 20px;
+}
 
 
+/*navigation*/
 
 .nav-item-icon{
     height: 60%;
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-top: 12px;
+}
+
+.nav-group{
+  display: none;
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  padding-top: 10px;
+  z-index: 1000;
+  margin-top: -20px;
+}
+
+.nav-item{
+    text-align: center;
+    display: inline;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
 }
 
 
-.promo-cloud-2{
-  width:25%;
-  float: right;
-  margin-top: 370px;
-  margin-right: -90px;
+li.nav-item:hover{
+  text-decoration: none;
+}
 
-      
- 
+a.shop-old-navy{
+color:#264d73;
+font-weight: 700;
+letter-spacing: 1px;
+
 }
 
 
+  p.nav-text{ 
+    display: inline;
+    color:#444444;
+    font-weight: 700;
+  }
 
 /*three buckets*/
 
@@ -158,8 +211,8 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height:1200px;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .three-buckets{
@@ -173,8 +226,7 @@
   color:#444444;
   font-size: 25px;
   font-family:sans-serif;
-  padding-right: 70px;
-  padding-left: 70px;
+
   padding-bottom: 40px;
   padding-top: 20px;
   background: rgba(255,255,255, 0.8);
@@ -203,42 +255,15 @@ margin-right: 4%;
 }
 
 
-.nav-group{
-  display: none;
-  text-align: center;
-  background-color: white;
-  position: fixed;
-  height: 60px;
-  width: 100%;
-  padding-top: 20px;
-  z-index: 1000;
-}
 
-.nav-item{
-    text-align: center;
-    display: inline;
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: black;
-}
 
-li.nav-item:hover{
-  text-decoration: none;
-}
 
 .camp{
     color:red;
     text-align: left;
   }
 
-  p.nav-text{ 
-    display: inline;
-    color:#444444;
-  }
+
 
   a:hover{ 
     text-decoration: none;
@@ -261,9 +286,6 @@ li.nav-item:hover{
 }
 
 
-.skinny-promo >p{
-  text-align: center;
-}
 
 i.fa{
   margin-top: 20px;
@@ -295,6 +317,14 @@ i.fa-times{
      font-size: 50px;
   }
 
+.photo-marshall{
+  margin-top: 30px;
+}
+
+.bubble-marshall{
+  margin-bottom: 0px;
+  z-index: 1000;
+}
 
 .plane{
     position: fixed;
@@ -314,42 +344,244 @@ p.grades{
 }
 
 
-
+.wave{
+  width:110%;
+}
 
 #brain-gain{
-  background-image: url("imgs/brain-games.jpg");
-    background-repeat: repeat-x, repeat-y;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height:6500px;
+  padding-top: 100px;
+  margin-left:25px ;
+  margin-right:25px;
+
 }
 
 #this-way-ahead{
-  background-image: url("imgs/this-way-ahead.jpg");
-    background-repeat: repeat-x, repeat-y;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height:6500px;
+
+}
+
+/*
+summer brain gain is like rocket fuel */
+
+p.jim-clark{
+    text-align: right;
+    margin-top: 20px;
+    color:black;
+    letter-spacing: 2px;
+
+}
+
+p.jim-clark-title{
+   text-align: right;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color:silver;
+   font-size: 15px;
+   letter-spacing: 2px;
+}
+
+p.steven-lali{
+    text-align: left;
+    margin-top: 20px;
+    color:black;
+    letter-spacing: 2px;
+    margin-left: 80px;
+}
+
+
+p.steven-lali-title{
+   text-align: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color:silver;
+   font-size: 15px;
+   letter-spacing: 2px;
+   margin-left: 80px;
+
+}
+
+img.strikes-a-cord{
+    margin-left: 80px;
+    margin-top: -190px;
+    max-width: 60%;
+}
+
+.triangle-and-quote{
+  display: none;
 }
 
 
 #kids-safety{
-  background-image: url("imgs/kids-safety.jpg");
-    background-repeat: repeat-x, repeat-y;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height:3500px;
+
+}
+
+.section-description{
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    line-height: 48px;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+
+  p.summer-brain-gain-paragraph{
+    text-align: left;
+    margin-right: 350px;
+    margin-left: 350px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+    color: silver;
+  }
+
+  .malani-story-text-two{
+  
+  text-align: left;
+  font-weight: 100;
+  display:none;
+  margin-top: 20px;
+  font-size: 20px;
+  color:gray;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-left: 60px;
+  padding-right: 30px;
+
+}
+
+  i.brain-gain-expand{
+    text-align: center;
+  }
+
+.b-gain-lockup{
+  margin-left:40px;
+}
+
+div.head-start{
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:40px;
+  max-width: 70%;
+   margin-right: auto;
+  margin-left: auto;
+}
+
+p.marshall-story-text{
+ text-align: left;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 20px;
+  color:gray;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-right: 80px;
+}
+
+.section-header{
+    font-family: sans-serif;
+    color: red;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.kiddo-shot-left, .kiddo-shot-right{
+  text-align: center;
+}
+
+.img-responsive{
+display:inline;
+}
+
+.malani-story-title{
+   float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+div.summer-brain-gain-container{
+    text-align: center;
+  }
+
+  .brain-gain-chevron-holder{
+text-align: center;
+  }
+
+  .stat-bucket-group{
+    display:none;
+  }
+
+.marshall-expand{
+    text-align: center;
+    margin-left: -100px;
+}
+
+.marshall-close{
+    text-align: center;
+    margin-left: -100px;
+  }
+
+.stat-group{
+  margin-bottom: 40px;
+}
+
+.malani-story-text{
+  text-align: left;
+  margin-top: 100px;
+  font-size: 20px;
+  color:gray;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-left: 60px;
+  padding-right: 30px;
+  font-weight: 100;
+}
+
+img.img-responsive.bubble{
+  margin-top: 80px;
 }
 
 
 
+.stripes{    
+  margin-bottom: 60px;
 
+}
+
+/*.shadow{
+    position:absolute;
+    top:54em;
+    width:100%;
+    height:3em;
+    background: -webkit-linear-gradient(transparent, white);
+    background: -o-linear-gradient(transparent, white);
+    background: -moz-linear-gradient(transparent, white;
+    background: linear-gradient(transparent, white);
+  }
+*/
+  .malani-expand {
+    position:relative;
+    width:180px;
+    max-height:100px;
+    overflow:hidden;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .bucket-1, .bucket-2, .bucket-3{
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .bucket-3{
+    margin-bottom: 40px;
+  }
+
+}
 
 
 
