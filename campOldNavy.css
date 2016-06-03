@@ -55,98 +55,91 @@
     overflow-x: hidden !important;
   }
 
-body{
-  font-family:sans-serif;
+  body{
+    font-family:sans-serif;
 
-}
+  }
 
 
-/*fonts */
+  /*fonts */
 
-@font-face {
+  @font-face {
     font-family: Gotham-Bold;
     src: url(Gotham/Gotham-Bold.otf);
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: Gotham-Book;
     src: url(Gotham/Gotham-Book.otf);
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: Gotham-Light;
     src: url(Gotham/Gotham-Light.otf);
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: Block-Web;
     src: url(BE_Block_Web_UC.otf);
-}
+  }
 
   /*Styling for page */
 
-#three-buckets, #kids-dream-big{
-  background-image: url("imgs/cloud-cover.png");
-}
-
-
+  #dream-big-bucket-trio-cloud-cover{
+    background-image: url("imgs/Cloud-cover.png");
+  }
 
 
   #kids-safety, #this-way-ahead, #brain-gain{
- background-color: white;
+   background-color: white; 
+ }
 
-   
-  }
-
-  .camp-old-navy-logo{
-    width: 90px;
-    position: fixed;
-    margin-top: 40px;
-     margin-left: 60px;
-  }
+ .camp-old-navy-logo{
+  width: 90px;
+  position: fixed;
+  margin-top: 40px;
+  margin-left: 60px;
+}
 
 
 
 
-  /*  kids dream big text block in the center of the #kids-dream-big section at the top of the page */
+/*  kids dream big text block in the center of the #kids-dream-big section at the top of the page */
 
-  #kids-dream-big-group{
-     text-align: center;
-    font-family: sans-serif;  
-    margin-top: 150px;
+#kids-dream-big-group{
+ text-align: center;
+ font-family: sans-serif;  
+ margin-top: 150px;
 
-  }
+}
 
 
 .kids {
-       
-       text-align: center;
-   
+ text-align: center;
 }
 
 .dream{
-   text-align: center;
-
+ text-align: center;
 }
 
 
-  .big{
-     text-align: center;
-  }
+.big{
+ text-align: center;
+}
 
 .so-do-we-img{
-   text-align: center;
+ text-align: center;
 
 }
 
-  .all-kids-deserve{
-    font-size: 12px;
-    line-height: 20px;
-    color: gray;
-    font-weight: 200;
- 
+.all-kids-deserve{
+  font-size: 12px;
+  line-height: 20px;
+  color: gray;
+  font-weight: 200;
+
 }
-  
+
 
 
 /*cloud promo*/
@@ -157,22 +150,28 @@ body{
 }
 
 
+.cloud-promo-image{
+
+}
+
+
 
 
 /*navigation*/
 
 img.camp-old-navy-logo-nav{
-    width: 70px;
+    width: 65px;
     margin-bottom: -5px;
-    margin-right: 50px;
-
+    margin-right: 5%;
 }
 
- .back-to-top, .logo{
-  display: inline;
- }
 
- li.back-to-top-logo{
+
+.back-to-top, .logo{
+  display: inline;
+}
+
+li.back-to-top-logo{
   display: inline;
 }
 
@@ -180,27 +179,27 @@ img.camp-old-navy-logo-nav{
   display: none;
 }
 
-  img.back-to-top{
-    width: 30px;
-    margin-bottom: -5px;
-    margin-right: 7%;
+img.back-to-top {
+    width: 28px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 20px;
+
   }
 
-  img.shop-old-navy{
-  margin-bottom: -10px;
-  max-width: 11%;
-  }
+img.shop-old-navy{
+  margin-bottom: -16px;
+  max-width: 150px;
+  margin-left: 5%;
+}
 
-  .logo{
-        height: 70%;
-        margin-left: 7%;
-  }
+
 
 
 .nav-item-icon{
-    height: 60%;
-    padding-right: 5px;
-    padding-top: 12px;
+  height: 60%;
+  padding-right: 5px;
+  padding-top: 12px;
 }
 
 
@@ -229,21 +228,29 @@ img.camp-old-navy-logo-nav{
 }
 
 .nav-item{
-    text-align: center;
-    display: inline;
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: black;
+  text-align: center;
+  display: inline;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
 }
 
 .charge-ahead-footer{
-display:none;
+  display:none;
 }
 
+.charge-ahead-footer-mobile{
+  display:none;
+}
+
+.promo-footer{
+  width: 100%;
+  margin-bottom: -4px;
+}
 
 
 
@@ -252,29 +259,31 @@ li.nav-item:hover{
 }
 
 a.shop-old-navy{
-color:#264d73;
-font-weight: 700;
-letter-spacing: 1px;
+  color:#264d73;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 
-  p.nav-text{ 
-    display: inline;
-    color:#444444;
-    font-weight: 700;
-    font-family: Gotham-Bold;
-  }
+p.nav-text{ 
+  display: inline;
+  color:#444444;
+  font-weight: 700;
+  font-family: Gotham-Bold;
+}
+
+
 
 /*three buckets*/
 
 #three-buckets{
-    background-repeat: repeat-x, repeat-y;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+  background-repeat: repeat-x, repeat-y;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .three-buckets{
@@ -296,63 +305,65 @@ letter-spacing: 1px;
 
 
 .bucket-1{
-margin-left: 4%
+  margin-left: 4%
 }
 
 .bucket-2{
-margin-right: 8%;
-margin-left: 8%;
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
 .bucket-3{
-margin-right: 4%;
+  margin-right: 4%;
 }
 
 
 .mini-bucket{
-    font-size:12px;
-    line-height: 25px;
-    color:gray;
-    font-weight:200;
+  font-size:12px;
+  line-height: 25px;
+  color:gray;
+  font-weight:200;
 }
 
 
 .mini-bucket-stat{
-    font-size:12px;
-    line-height: 25px;
-    color:gray;
-    font-weight:200;
+  font-size:12px;
+  line-height: 25px;
+  color:gray;
+  font-weight:200;
 }
 
 .mini-bucket-stat-border{
-    border-top: 1px gray solid;
-    padding-top: 20px;
-    max-width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+  border-top: 1px gray solid;
+  padding-top: 20px;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 
 /*end bucket group
 */
 .camp{
-    color:red;
-    text-align: left;
-  }
+  color:red;
+  text-align: left;
+}
 
 
 
-  a:hover{ 
-    text-decoration: none;
-  }
-  
-  a:active p.nav-text{ 
-    text-decoration: none;
-  }
-  
-  a:focus{
+a:hover{ 
+  text-decoration: none;
+}
+
+a:active p.nav-text{ 
+  text-decoration: none;
+}
+
+a:focus{
   text-decoration: none; 
-  }
+}
 
 
 
@@ -364,28 +375,28 @@ i.fa{
 
 .fa {
  color: #EF422E;
-  }
+}
 
 i.fa-times{
-    color: navy;
-    float: right;
-    margin-top: 340px;
-    margin-right: 140px;
-    font-size: 30px;
+  color: navy;
+  float: right;
+  margin-top: 340px;
+  margin-right: 140px;
+  font-size: 30px;
 }
-  
 
 
- .fa-chevron-circle-down{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size:40px;
-    color: #EF422E;
-  }
 
-  i.fa-chevron-circle-down{
-     font-size: 50px;
-  }
+.fa-chevron-circle-down{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size:40px;
+  color: #EF422E;
+}
+
+i.fa-chevron-circle-down{
+ font-size: 50px;
+}
 
 
 
@@ -405,15 +416,15 @@ p.grades{
 
 
 p.bucket-title{
-font-family: Gotham-Bold;
-font-size: 20px;
-letter-spacing: 2px;
+  font-family: Gotham-Bold;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 /*BRAIN GAIN*/
 
 
- #kids-safety, #this-way-ahead, #brain-gain{
+#kids-safety, #this-way-ahead, #brain-gain{
   padding-top: 100px;
 
 
@@ -424,91 +435,91 @@ letter-spacing: 2px;
 summer brain gain is like rocket fuel */
 
 p.jim-clark{
-    text-align: right;
-    margin-top: 20px;
-    color:black;
-    letter-spacing: 2px;   
-    margin-right: 60px;
+  text-align: right;
+  margin-top: 20px;
+  color:black;
+  letter-spacing: 2px;   
+  margin-right: 60px;
 
 }
 
 p.jim-clark-title{
-   text-align: right;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   color:silver;
-   font-size: 15px;
-   letter-spacing: 2px;
-    margin-right: 60px;
+ text-align: right;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ color:silver;
+ font-size: 15px;
+ letter-spacing: 2px;
+ margin-right: 60px;
 }
 
 p.steven-lali{
-    text-align: left;
-    margin-top: 20px;
-    color:black;
-    letter-spacing: 2px;
-    margin-left: 80px;
+  text-align: left;
+  margin-top: 20px;
+  color:black;
+  letter-spacing: 2px;
+  margin-left: 80px;
 }
 
 
 p.steven-lali-title{
-   text-align: left;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   color:silver;
-   font-size: 15px;
-   letter-spacing: 2px;
-   margin-left: 80px;
+ text-align: left;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ color:silver;
+ font-size: 15px;
+ letter-spacing: 2px;
+ margin-left: 80px;
 
 }
 
 img.strikes-a-cord{
-    margin-left: 80px;
-    margin-top: -190px;
-    max-width: 60%;
+  margin-left: 80px;
+  margin-top: -190px;
+  max-width: 60%;
 }
 
 
 
 
 .section-description{
-    color: gray;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    line-height: 48px;
-    font-size: 28px;
-    font-weight: 100;
-    font-family: sans-serif;
-    margin-left: 100px;
+  color: gray;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  line-height: 48px;
+  font-size: 28px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-left: 100px;
 }
 
 /*summer brain gain*/
 
 div.summer-brain-gain-container{
-    text-align: left;
-    margin-left: 20%;
-  }
+  text-align: left;
+  margin-left: 20%;
+}
 
-  p.summer-brain-gain-paragraph{
-    text-align: left;
-    margin-right: 20%;
-    line-height: 30px;
-    font-size: 16px;
-    margin-top: 30px;
-    color: gray;
-    font-family: Gotham-Light;
-  }
+p.summer-brain-gain-paragraph{
+  text-align: left;
+  margin-right: 20%;
+  line-height: 30px;
+  font-size: 16px;
+  margin-top: 30px;
+  color: gray;
+  font-family: Gotham-Light;
+}
 
-  .brain-gain-chevron-holder{
-   text-align: center;
-  }
+.brain-gain-chevron-holder{
+ text-align: center;
+}
 
-  i.brain-gain-expand{
-    text-align: center;
-  }
+i.brain-gain-expand{
+  text-align: center;
+}
 
 
-.b-gain-lockup{
+.lockup{
   margin-left:40px;
 }
 
@@ -520,14 +531,14 @@ div.head-start{
   margin-top:40px;
   margin-bottom:40px;
   max-width: 70%;
-   margin-right: auto;
+  margin-right: auto;
   margin-left: auto;
 }
 
 
 
 .img-responsive{
-display:inline;
+  display:inline;
 }
 
 
@@ -538,9 +549,11 @@ display:inline;
 
 
 
-.stat-group{
+.stat-group, .stat-group-one{
   margin-bottom: 25px;
 }
+
+
 
 
 /*  MARSHAL SECTION*/
@@ -551,21 +564,21 @@ display:inline;
 }
 
 .marshalls-story{
-margin-top: 90px;
-margin-bottom: 45px;
+  margin-top: 90px;
+  margin-bottom: 45px;
 }
 
 
-  p.marshall-story-text{
+p.marshall-story-text{
  text-align: left;
-  font-weight: 100;
-  font-size: 20px;
-  color:gray;
-  margin-bottom: 40px;
-  line-height: 30px;
-  letter-spacing: 1px;
-  padding-left: 10px;
-  padding-right: 80px;
+ font-weight: 100;
+ font-size: 20px;
+ color:gray;
+ margin-bottom: 40px;
+ line-height: 30px;
+ letter-spacing: 1px;
+ padding-left: 10px;
+ padding-right: 80px;
 }
 
 .photo-marshall{
@@ -573,30 +586,29 @@ margin-bottom: 45px;
 }
 
 .bubble-marshall{
-    margin-bottom: 0px;
-    z-index: 100;
-    max-width: 90%;
-    position: absolute;
-    margin-top: -40px;
+  margin-bottom: 0px;
+  z-index: 100;
+  max-width: 90%;
+  position: absolute;
+  margin-top: -40px;
 }
 
- a.legal{
-   position: absolute;
-    margin-top: 240px;
-    margin-left: 230px;
-    font-family: Gotham-Bold;
-    color:black;
+a.legal{
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 300px;
+  font-family: Gotham-Bold;
+  color: black;
+  font-size: 14px;
+}
 }
 
 .charge-ahead-footer{
-     width: 100%;
-    background-color: silver;
-    height: 70px;
+ width: 100%;
 }
 
 .pop-up-footer{
-  margin-top: 10px;
-  max-width:2%;
+  max-width:100%;
 
 }
 
@@ -606,10 +618,10 @@ margin-bottom: 45px;
 }
 
 .dates{
-    color: red;
-    text-align: center;
-    line-height: 25px;
-    font-family: Gotham-Bold;
+  color: red;
+  text-align: center;
+  line-height: 25px;
+  font-family: Gotham-Bold;
 }
 
 /*MALANI SECTION*/
@@ -625,8 +637,8 @@ margin-bottom: 45px;
 
 
 .MaLani-redBar{
-margin-top: 10px;
-margin-bottom:10px;
+  margin-top: 10px;
+  margin-bottom:10px;
 }
 
 /*  .malani-story-text-two{
@@ -641,38 +653,38 @@ margin-bottom:10px;
   padding-left: 60px;
   padding-right: 30px;
 
-}*/
+  }*/
 
 
-.malani-story-text{
-  text-align: left;
-  font-size: 20px;
-  color:gray;
-  line-height: 30px;
-  letter-spacing: 1px;
-  padding-left: 60px;
-  padding-right: 30px;
-  font-weight: 100;
-  font-family: Gotham-Light;
-}
+  .malani-story-text{
+    text-align: left;
+    font-size: 20px;
+    color:gray;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-left: 60px;
+    padding-right: 30px;
+    font-weight: 100;
+    font-family: Gotham-Light;
+  }
 
-.malani-story-text-mobile-container{
-  text-align: left;
-}
+  .malani-story-text-mobile-container{
+    text-align: left;
+  }
 
-.malani-story-title{
+  .malani-story-title{
    float: right;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    max-width: 40%;
-    margin-right: 60px;
-}
+   margin-top: 60px;
+   margin-bottom: 30px;
+   max-width: 40%;
+   margin-right: 60px;
+ }
 
-  .malani-expand {
-    position:relative;
-    width:180px;
-    max-height:100px;
-    overflow:hidden;
+ .malani-expand {
+  position:relative;
+  width:180px;
+  max-height:100px;
+  overflow:hidden;
 }
 
 
@@ -689,45 +701,45 @@ img.Malani-bubble{
 }
 
 .rocket-quote{
-    margin-top: 140px;
-    margin-right: 60px;
-    margin-left: -60px;
+  margin-top: 140px;
+  margin-right: 60px;
+  margin-left: -60px;
 }
 
 .blue-flame{
-margin-left: -30px;
+  margin-left: -30px;
 }
 
 
 .malani-story-text-mobile, .malani-story-title-mobile, .redBar-mobile{
-display: none;
+  display: none;
 }
 
 .hide-on-desktop{
-display: none;
+  display: none;
 }
 
 
 .head-start-image{
-max-width: 70%
+  max-width: 70%
 }
 
 .head-start-info{
-text-align:center;
+  text-align:center;
 }
 
 .head-start-text{
-    text-align: center;
-    font-family: Gotham-Light;
-    font-size: 20px;
-    line-height: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
+  text-align: center;
+  font-family: Gotham-Light;
+  font-size: 20px;
+  line-height: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
 .discover-button, .volunteer-button{
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .nav-duo{
@@ -750,93 +762,225 @@ margin-top: 20px;
 }
 
 .button-expand{
-    max-width: 15%;
-    margin-top: 40px;
+  max-width: 150px;
+  margin-top: 40px;
 
+}
+
+.camp-old-navy-logo-nav-mobile{
+  display:none;
+  }
+
+/*
+  Kids safety section*/
+
+.kid-bubble-div{
+  margin-bottom: 60px;
+}
+
+.check-tell-watchout{
+  margin-top: 50px;
+}
+
+.check-tell-watchout-one{
+  text-align: right;
+
+}
+
+
+.check-tell-watchout-two{
+  text-align: center;
+
+}
+
+.check-tell-watchout-three{
+text-align: left;
+}
+
+
+.check-tell-watchout-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color:gray;
+  font-family: Gotham-Light;
+  max-width: 300px;
+
+}
+
+ .watch-out, .check, .dotted-left{
+    text-align: center;
+    margin-left: 40%;
+}
+
+ .tell, .buddy-up, .dotted-right{
+    text-align: center;
+    margin-right: 40%;
+}
+
+.dotted-left-img, .dotted-right-img{
+  margin-bottom: 20px;
+}
+
+.check-img, .buddy-up-img, .tell-img{
+max-width: 80%
+}
+
+.save-the-date-group{
+  text-align: center;
+  margin-top: 60px;
+}
+
+p.save-the-date{
+  color:#444444;
+  font-family: Gotham-Bold;
+  margin-bottom: 30px;
+  letter-spacing: 1.3px;
+}
+
+p.stop-by-store{
+    line-height: 45px;
+    font-family: Gotham-Light;
+    color: gray;
+    font-size: 23px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+button.find-a-store-button{
+    color: #0099cc;
+    letter-spacing: 1.3px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: none;
+    background-image: none;
+    border: 1px solid #0099cc;
+
+}
+
+@media screen and (max-width: 1120px){
+
+  img.camp-old-navy-logo-nav{
+    width: 65px;
+    margin-bottom: -5px;
+    margin-right: 3%;
+}
+
+img.shop-old-navy{
+  margin-bottom: -16px;
+  max-width: 150px;
+  margin-left: 3%;
+}
+
+  .cloud-promo-img{
+   max-width: 500px;
+ }
+
+ a.legal {
+  position: absolute;
+  margin-top: 265px;
+  margin-left: 240px;
+  font-family: Gotham-Bold;
+  color: black;
+  font-size: 13px;
+}
 }
 
 
 @media screen and (max-width: 1100px) {
 
-img.shop-old-navy{
-margin-left: -4%;%;
-}
 
-img.back-to-top{
-margin-right: 2%;
-}
 
 }
 
 
 @media screen and (max-width: 992px) {
-/* kids dream big */
-
-.charge-ahead-footer{
-display:inline;
-}
-
-/* navigation */
-
-.head-start-text{
-text-align:center;
-font-family: Gotham-Light;
-font-size: 12px;
-line-height: 20px;
-}
 
 
-ul.nav-group-mobile{
-  margin-top: -20px;
-  text-align: center;
-  background-color: white;
-  position: fixed;
-  height: 60px;
-  width: 100%;
-  padding-top: 10px;
-  z-index: 1000; 
-}
+  /* kids dream big */
+
+
+
+  .charge-ahead-footer{
+    display:inline;
+  }
+
+  #kids-dream-big-group{
+    margin-top: 100px;
+
+  }
+
+  /* navigation */
+
+  .head-start-text{
+    text-align:center;
+    font-family: Gotham-Light;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+
+  ul.nav-group-mobile{
+    margin-top: -20px;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    z-index: 1000; 
+  }
 
   .nav-group{
-    margin-top: 20px;
-    height: 50px;
+    margin-top: 22px;
+    height: 44px;
   }
 
   .nav-item-icon{
     height: 30px;
-}
+  }
 
 
+  .logo{
+    display: none;
+  }
 
+  .back-to-top, .camp-old-navy-logo-nav, .shop-old-navy{
+    display: none;
+  }
 
+  .back-to-top-mobile, .shop-old-navy-mobile{
+    display: inline;
+  }
 
-.logo{
-  display: none;
-}
-
-.back-to-top, .camp-old-navy-logo-nav, .shop-old-navy{
-  display: none;
-}
-
-.back-to-top-mobile, .shop-old-navy-mobile{
-  display: inline;
-}
-
-.back-to-top-mobile{
-    max-width: 30px;
+  .back-to-top-mobile{
+     max-width: 25px;
     float: left;
+    margin-left: 10px;
+  }
+
+  .shop-old-navy-mobile{
+  max-width: 125px;
+  float: right;
+  margin-right: 25%;
+ }
+
+.camp-old-navy-logo-nav-mobile{
+    max-width: 50px;
+    display: inline;
     margin-left: 25%;
+    float:left;
 }
+ 
 
-.shop-old-navy-mobile{
-     max-width: 145px;
-    float: right;
-    margin-right: 25%;
-    margin-top: -7px;
-}
-
-.this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav{
-font-size:17px;
+ .this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav{
+  font-size:17px;
 }
 
 .this-way-ahead-nav{
@@ -852,39 +996,45 @@ font-size:17px;
 /*cloud-promo*/
 
 .cloud-promo{
-display:none;
+  display:none;
 }
 
 
 
 /* three buckets */
 #three-buckets {
-    padding-top: 100px;
+  padding-top: 100px;
 
-  }
+}
 
-  .bucket-1, .bucket-2, .bucket-3{
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #444444;
-    font-size: 25px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    background: rgba(255,255,255, 0.8);
-  }
-
-  i.fa{
-  margin-top: 10px;
+.bucket-1, .bucket-2, .bucket-3{
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #444444;
   font-size: 25px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background: rgba(255,255,255, 0.8);
+}
+
+i.fa{
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+i.fa-chevron-down{
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 
-  .bucket-3{
-    margin-bottom: 40px;
-  }
+
+.bucket-3{
+  margin-bottom: 40px;
+}
 
 .mini-bucket{
   display: none;
@@ -905,25 +1055,28 @@ display:none;
 }
 
 .hide-on-desktop{
-display: block;
+  display: block;
+}
+
+.stat-group-one{
+margin-top: 70px;
 }
 
 
-
- .steven-lali, .steven-lali-title, .strikes-a-cord, .malani-bw, .blue-flame, .wave, .malani-story-text, .malani-story-title, .MaLani-redBar{
+.steven-lali, .steven-lali-title, .strikes-a-cord, .malani-bw, .blue-flame, .wave, .malani-story-text, .malani-story-title, .MaLani-redBar{
   display:none;
 }
 
 .redBar-mobile{
-display: inline;
+  display: inline;
 }
 
 .malani-story-title-mobile{
-display: inline;
-margin-left: -35px;
-margin-top: 30px;
-margin-bottom: 40px;
-text-align: left;
+  display: inline;
+  margin-left: -35px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: left;
 }
 
 
@@ -947,7 +1100,7 @@ img.Malani-bubble{
   margin-left: 5%;
   max-width: 60%; 
 }
-   
+
 p.summer-brain-gain-paragraph{
   font-family: Gotham-Light;
   margin-left: 5%;
@@ -963,10 +1116,10 @@ div.summer-brain-gain-container{
 }
 
 .rocket-quote{
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 40px;
-    max-width: 80%
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 40px;
+  max-width: 80%
 }
 
 p.quote-name{
@@ -987,7 +1140,7 @@ p.quote-title{
 .bubble-marshall{
  position: relative;
  margin-top: -20px;
-margin-bottom: 0px;
+ margin-bottom: 0px;
 
 }
 
@@ -996,8 +1149,8 @@ margin-bottom: 0px;
 }
 
 .marshalls-story{
-   margin-top: 40px;
-   padding-left: 10px;
+ margin-top: 40px;
+ padding-left: 10px;
 }
 
 
@@ -1005,6 +1158,51 @@ margin-bottom: 0px;
 
 
 @media screen and (max-width: 567px) {
+
+  img.icon-img-bucket{
+        max-width: 35px;
+
+}
+
+  i.fa-chevron-circle-down{
+   font-size: 40px;
+  }
+
+  .kids{
+    width: 13%;
+  }
+
+  .dream{
+    width: 28%;
+  }
+
+  .big{
+    width: 50%;
+  }
+
+  .so-do-we-img{
+    width: 44%;
+  }
+
+  .all-kids-deserve {
+    font-size: 10.5px;
+    line-height: 20px;
+    color: gray;
+    font-weight: 200;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+
+
+  .charge-ahead-footer-mobile{
+    display:inline;
+  }
+
+  .charge-ahead-footer{
+    display:none;
+  }
+
 
   .mini-bucket-stat{
     margin-left: 20%;
@@ -1016,17 +1214,17 @@ margin-bottom: 0px;
   }
 
   p.marshall-story-text{
-  padding-left: 10px;
-  padding-right: 0px;
-}
+    padding-left: 10px;
+    padding-right: 0px;
+  }
 
   .nav-group{
-    margin-top: 20px;
-    height: 40px;
+    margin-top: 30px;
+    height: 30px;
 
   }
 
-.nav-item-icon {
+  .nav-item-icon {
     height: 65%;
   }
 
@@ -1035,22 +1233,22 @@ margin-bottom: 0px;
     margin-left: -15px;
   }
 
-   .camp-old-navy-logo{
+  .camp-old-navy-logo{
     width: 70px;
   }
 
 
-.this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav{
-font-size:13px;
-}
+  .this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav{
+    font-size:13px;
+  }
 
-.this-way-ahead-nav{
- margin-right: 20px;
- margin-left: 0px;
-}
-.brain-gain-nav{
-margin-left: 10px;
-margin-right: 10px;
+  .this-way-ahead-nav{
+   margin-right: 20px;
+   margin-left: 0px;
+ }
+ .brain-gain-nav{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .kids-safety-nav{
   margin-left: 10px;
@@ -1058,18 +1256,57 @@ margin-right: 10px;
 
 }
 
-  
+.lockup{
+  margin-left:0px;
+  text-align: center;
 }
 
 
- 
-
-/*
-section#kids-dream-big{
-      margin-bottom: 0px;
+.lockup-img{
+    width: 70%;
 }
-*/
 
+.lockup-img-brain-gain{
+    width: 60%;
+}
+
+
+.shop-old-navy-mobile{
+  margin-right: 15%;
+}
+
+.camp-old-navy-logo-nav-mobile {
+    max-width: 50px;
+    float: left;
+    margin-left: 15%;
+
+  }
+
+  .button-expand{
+  max-width: 120px;
+  margin-top: 30px;
+
+}
+}
+
+
+@media screen and (max-width: 454px) {
+  .discover-button{
+      margin-top: 40px;
+
+    }
+}
+
+@media screen and (max-width: 424px) {
+  .discover-button{
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 402px) {
+  .discover-button{
+      margin-top: 40px;
+    }
+}
 
 
 
