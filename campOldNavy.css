@@ -463,7 +463,7 @@ p.jim-clark{
   margin-top: 20px;
   color:black;
   letter-spacing: 2px;   
-  margin-right: 60px;
+  margin-right: 15%;
 
 }
 
@@ -474,7 +474,7 @@ p.jim-clark-title{
  color:silver;
  font-size: 15px;
  letter-spacing: 2px;
- margin-right: 60px;
+ margin-right: 15%;
 }
 
 p.steven-lali{
@@ -908,6 +908,21 @@ button.find-a-store-button{
 .quote-mobile{
   display:none;
 }
+
+
+@media screen and (min-width: 1440px) {
+
+  #brain-gain, #kids-safety, #this-way-ahead{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .button-expand {
+    max-width: 200px;
+  }
+}
+
+
 
 
 @media screen and (max-width: 1120px){
@@ -1389,7 +1404,11 @@ p.quote-title{
   .discover-button{
       margin-top: 40px;
     }
+
+
 }
+
+
 
 
 
