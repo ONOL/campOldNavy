@@ -1258,7 +1258,10 @@ p.quote-title{
 
 @media screen and (max-width: 567px) {
 
+#three-buckets{
 
+  padding-bottom: 100px;
+}
 
 /*  show/hide*/
 
