@@ -1036,7 +1036,10 @@ a.shop-now{
 }
   /* kids dream big */
 
+.lightbox:target, .lightbox {
 
+  display:none;
+}
 
   .charge-ahead-footer{
     display:inline;
