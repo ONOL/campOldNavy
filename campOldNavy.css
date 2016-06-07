@@ -773,8 +773,21 @@ img.Malani-bubble{
 }
 
 
-.discover-button, .volunteer-button{
-  margin-top: 20px;
+.donate-button{
+   display: inline;
+    padding-left: 4.5%;
+    width: 30%;
+    margin-top: 20px;
+
+
+}
+
+.volunteer-button{
+    display: inline;
+    padding-right: 4.5%;
+    width: 30%;
+    margin-top: 20px;
+
 }
 
 .nav-duo{
