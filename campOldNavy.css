@@ -85,14 +85,16 @@
 
   /*Styling for page */
 
-  #dream-big-bucket-trio-cloud-cover{
-    background-image: url("imgs/Cloud-cover.png");
-  }
+
 
 
   #kids-safety, #this-way-ahead, #brain-gain{
    background-color: white; 
  }
+
+   section#dream-big-bucket-trio-cloud-cover{
+    background-image: url("imgs/cloud-cover.png");
+  }
 
  .camp-old-navy-logo{
   width: 90px;
@@ -149,6 +151,28 @@
   margin-left: 60%;
 }
 
+.promo-close{
+    font-family: Gotham-Light;
+    color: #444444;
+    margin-left: 320px;
+    font-size: 25px;
+}
+
+.promo-close-footer {
+    font-family: Gotham-Light;
+    color: #444444;
+    float: right;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+.promo-close-footer-2 {
+    font-family: Gotham-Light;
+    color: #444444;
+    float: right;
+    margin-right: 10%;
+    font-size: 20px;
+}
 
 .cloud-promo-image{
 
@@ -212,7 +236,7 @@ img.shop-old-navy{
   width: 100%;
   padding-top: 10px;
   z-index: 1000;
-  margin-top: 0x;
+  margin-top: 0px;
 }
 
 .nav-group{
@@ -593,13 +617,23 @@ p.marshall-story-text{
   margin-top: -40px;
 }
 
-a.legal{
+a.shop-now{
   position: absolute;
-  margin-top: 330px;
-  margin-left: 300px;
+  margin-top: 295px;
+  margin-left: 230px;
   font-family: Gotham-Bold;
   color: black;
   font-size: 14px;
+  text-decoration: underline;
+}
+
+a.legal{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 250px;
+  font-family: Gotham-Bold;
+  color: black;
+  font-size: 13px;
 }
 }
 
@@ -896,12 +930,25 @@ img.shop-old-navy{
 
  a.legal {
   position: absolute;
-  margin-top: 265px;
-  margin-left: 240px;
+  margin-top: 310px;
+  margin-left: 238px;
   font-family: Gotham-Bold;
   color: black;
   font-size: 13px;
 }
+
+a.shop-now{
+  position: absolute;
+  margin-top: 285px;
+  margin-left: 220px;
+  font-family: Gotham-Bold;
+  color: black;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
+
 }
 
 
@@ -913,8 +960,13 @@ img.shop-old-navy{
 
 
 @media screen and (max-width: 992px) {
+    ul.nav-group, ul.nav-group-mobile{
+    display: inline;
+  }
 
-
+.camp-old-navy-logo{
+  display: none;
+}
   /* kids dream big */
 
 
@@ -1177,6 +1229,8 @@ p.quote-title{
 
 @media screen and (max-width: 567px) {
 
+
+
 /*  show/hide*/
 
 .quote-mobile{
@@ -1262,9 +1316,7 @@ p.quote-title{
     margin-left: -15px;
   }
 
-  .camp-old-navy-logo{
-    width: 70px;
-  }
+  
 
 
   .this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav{
@@ -1331,11 +1383,22 @@ p.quote-title{
       margin-top: 20px;
     }
 
+  }
+
     @media screen and (max-width: 402px) {
   .discover-button{
       margin-top: 40px;
     }
 }
+
+
+
+
+/*
+WIDTH AND HEIGHT */
+
+
+
 
 
 
