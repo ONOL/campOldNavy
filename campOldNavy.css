@@ -322,7 +322,6 @@ p.nav-text{
   color:#444444;
   font-size: 25px;
   font-family:sans-serif;
-
   padding-bottom: 40px;
   padding-top: 20px;
   background: rgba(255,255,255, 0.8);
@@ -330,16 +329,16 @@ p.nav-text{
 
 
 .bucket-1{
-  margin-left: 4%
+  margin-left: 9%
 }
 
 .bucket-2{
-  margin-right: 8%;
-  margin-left: 8%;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .bucket-3{
-  margin-right: 4%;
+  margin-right: 9%;
 }
 
 
