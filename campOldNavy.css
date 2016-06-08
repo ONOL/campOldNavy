@@ -86,9 +86,13 @@
   /*Styling for page */
 
 
+#this-way-ahead, #kids-safety, #brain-gain {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
 
 
-  #kids-safety, #this-way-ahead, #brain-gain{
+  #kids-safety-section, #this-way-ahead-section, #brain-gain-section{
    background-color: white; 
  }
 
@@ -453,13 +457,6 @@ p.bucket-title{
 /*BRAIN GAIN*/
 
 
-#kids-safety, #this-way-ahead, #brain-gain{
-  padding-top: 100px;
-
-
-}
-
-
 /*
 summer brain gain is like rocket fuel */
 
@@ -508,6 +505,11 @@ img.strikes-a-cord{
   max-width: 55%;
 }
 
+.section-description-photo{
+  text-align: center;
+  margin-left: 14px;
+  margin-right: 14px;
+}
 
 .section-description{
   color: gray;
@@ -971,7 +973,7 @@ END LIGHTBOX*/
 
 @media screen and (min-width: 1340px) {
 
-  #brain-gain, #kids-safety, #this-way-ahead{
+  #brain-gain-section, #kids-safety-section, #this-way-ahead-section{
       margin-left: 18%;
       margin-right: 18%;
     }
@@ -979,6 +981,12 @@ END LIGHTBOX*/
     .button-expand {
     max-width: 200px;
   }
+
+  .section-description-photo{
+
+  margin-right: 15%;
+  margin-left: 15%;
+}
 }
 
 
@@ -1184,6 +1192,7 @@ i.fa-chevron-down{
 /*BRAIN GAIN SECTION*/
 
 .section-description{
+  color:#444444;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
