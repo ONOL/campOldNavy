@@ -93,7 +93,7 @@
  }
 
    section#dream-big-bucket-trio-cloud-cover{
-    background-image: url("imgs/cloud-cover.png");
+    background-image: url("imgs/cloudy-cover.png");
   }
 
  .camp-old-navy-logo{
@@ -135,10 +135,11 @@
 }
 
 .all-kids-deserve{
-  font-size: 12px;
-  line-height: 20px;
-  color: gray;
+  font-size: 16px;
+  line-height: 30px;
+  color: #444444;
   font-weight: 200;
+  font-family: Gotham-Light;
 
 }
 
@@ -343,10 +344,14 @@ p.nav-text{
 
 
 .mini-bucket{
-  font-size:12px;
-  line-height: 25px;
-  color:gray;
-  font-weight:200;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444444;
+    font-weight: 220;
+    width: 200px;
+    font-family: Gotham-Light;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -425,17 +430,18 @@ i.fa-chevron-circle-down{
 
 
 p.grades{
-  font-family: Gotham-Book;
-  color:#0B749D;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 17px;
-  font-weight: 600;
-  padding-top: 20px;
-  border-top:.2px solid #0B749D; 
-  max-width: 120px;
-  margin-right: auto;
-  margin-left: auto;
+    font-family: Gotham-Bold;
+    color: #0B749D;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 20px;
+    border-top: .2px solid #0B749D;
+    max-width: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 1.5px;
 }
 
 
@@ -499,11 +505,9 @@ p.steven-lali-title{
 
 img.strikes-a-cord{
   margin-left: 80px;
-  margin-top: -190px;
-  max-width: 60%;
+  margin-top: -200px;
+  max-width: 55%;
 }
-
-
 
 
 .section-description{
@@ -962,11 +966,15 @@ border: black 1px solid;
 /*
 END LIGHTBOX*/
 
-@media screen and (min-width: 1440px) {
+
+
+
+
+@media screen and (min-width: 1340px) {
 
   #brain-gain, #kids-safety, #this-way-ahead{
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 18%;
+      margin-right: 18%;
     }
 
     .button-expand {
@@ -1343,7 +1351,7 @@ p.quote-title{
   .all-kids-deserve {
     font-size: 10.5px;
     line-height: 20px;
-    color: gray;
+    color: #444444;
     font-weight: 200;
     margin-left: 5%;
     margin-right: 5%;
