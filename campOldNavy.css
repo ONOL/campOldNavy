@@ -362,10 +362,14 @@ p.nav-text{
 
 
 .mini-bucket-stat{
-  font-size:12px;
-  line-height: 25px;
-  color:gray;
-  font-weight:200;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444444;
+    font-weight: 200;
+    font-family: Gotham-Light;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mini-bucket-stat-border{
@@ -504,7 +508,7 @@ p.steven-lali-title{
 
 img.strikes-a-cord{
   margin-left: 80px;
-  margin-top: -200px;
+  margin-top: -160px;
   max-width: 55%;
 }
 
@@ -530,15 +534,16 @@ img.strikes-a-cord{
 div.summer-brain-gain-container{
   text-align: left;
   margin-left: 20%;
+  margin-top: 60px;
 }
 
 p.summer-brain-gain-paragraph{
   text-align: left;
   margin-right: 20%;
-  line-height: 30px;
-  font-size: 16px;
+  line-height: 32px;
+  font-size: 20px;
   margin-top: 30px;
-  color: gray;
+  color: #444444;
   font-family: Gotham-Light;
 }
 
@@ -590,27 +595,38 @@ div.head-start{
 
 /*  MARSHAL SECTION*/
 
+.kid-col{
+  margin-top: 60px;
+}
+
+.kid-col-2{
+  margin-top: 100px;
+}
+
 .marshall-reading{
- max-width: 90%;
- margin-top: 360px;
+ max-width: 100%;
+ margin-top: 280px;
 }
 
 .marshalls-story{
-  margin-top: 90px;
-  margin-bottom: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    max-width: 40%;
 }
 
 
+
 p.marshall-story-text{
- text-align: left;
- font-weight: 100;
- font-size: 20px;
- color:gray;
- margin-bottom: 40px;
- line-height: 30px;
- letter-spacing: 1px;
- padding-left: 10px;
- padding-right: 80px;
+  text-align: left;
+  font-weight: 100;
+  font-size: 18px;
+  color: #444444;
+  margin-bottom: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 .photo-marshall{
@@ -618,11 +634,11 @@ p.marshall-story-text{
 }
 
 .bubble-marshall{
-  margin-bottom: 0px;
-  z-index: 100;
-  max-width: 90%;
-  position: absolute;
-  margin-top: -40px;
+    margin-bottom: 0px;
+    z-index: 100;
+    max-width: 100%;
+    position: absolute;
+    margin-top: -40px;
 }
 
 a.shop-now{
@@ -670,7 +686,7 @@ a.legal{
 
 .wave{
   z-index:4;
-  margin-top: 450px;
+  margin-top: 370px;
 }
 
 .kiddo-shot-left, .kiddo-shot-right {
@@ -697,12 +713,12 @@ a.legal{
 
   .malani-story-text{
     text-align: left;
-    font-size: 20px;
-    color:gray;
+    font-size: 18px;
+    color: #444444;
     line-height: 30px;
     letter-spacing: 1px;
-    padding-left: 60px;
-    padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
     font-weight: 100;
     font-family: Gotham-Light;
   }
@@ -712,11 +728,11 @@ a.legal{
   }
 
   .malani-story-title{
-   float: right;
-   margin-top: 60px;
-   margin-bottom: 30px;
-   max-width: 40%;
-   margin-right: 60px;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 40%;
+    margin-right: 20px;
  }
 
  .malani-expand {
@@ -747,7 +763,8 @@ img.Malani-bubble{
 }
 
 .rocket-quote{
-  margin-top: 140px;
+  margin-top: 90px;
+  margin-left: -20px;
 }
 
 .blue-flame{
@@ -785,7 +802,7 @@ img.Malani-bubble{
 
 .donate-button{
    display: inline;
-    padding-left: 4.5%;
+    padding-left: 7%;
     width: 30%;
     margin-top: 20px;
 
@@ -794,7 +811,7 @@ img.Malani-bubble{
 
 .volunteer-button{
     display: inline;
-    padding-right: 4.5%;
+    padding-right: 7%;
     width: 30%;
     margin-top: 20px;
 
@@ -836,9 +853,7 @@ img.Malani-bubble{
   margin-bottom: 60px;
 }
 
-.check-tell-watchout{
-  margin-top: 50px;
-}
+
 
 .check-tell-watchout-one{
   text-align: right;
@@ -925,7 +940,10 @@ button.find-a-store-button{
 
 /*show and hide*/
 .mom-quote{
-  float:right; margin-right:60px; margin-top:180px;
+      float: right;
+    margin-right: 60px;
+    margin-top: 160px;
+    max-width: 700px;
 }
 
 
@@ -1241,11 +1259,12 @@ p.malani-story-text-mobile{
   display: inline;
   text-align: left;
   font-size: 20px;
-  color:gray;
+  color: #737373;
   line-height: 30px;
   letter-spacing: 1px;
   font-family: Gotham-Light;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+
 
 }
 
@@ -1267,7 +1286,7 @@ p.summer-brain-gain-paragraph{
   margin-left: 5%;
   margin-right: 10%;
   font-size: 20px;
-  color:gray;
+  color:#444444;
 
 }
 
