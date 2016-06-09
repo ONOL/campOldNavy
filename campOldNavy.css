@@ -1002,8 +1002,8 @@ END LIGHTBOX*/
 @media screen and (min-width: 1340px) {
 
   #brain-gain-section, #kids-safety-section, #this-way-ahead-section{
-      margin-left: 14%;
-      margin-right: 14%;
+      margin-left: 12%;
+      margin-right: 12%;
     }
 
     .button-expand {
