@@ -87,7 +87,7 @@
 
 
 #this-way-ahead, #kids-safety, #brain-gain {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     }
 
@@ -324,7 +324,6 @@ p.nav-text{
 
 .bucket-1, .bucket-2, .bucket-3{
   margin-top: 40px;
-  margin-bottom: 40px;
   text-align: center;
   color:#444444;
   font-size: 25px;
@@ -838,7 +837,7 @@ img.Malani-bubble{
 
 .button-expand{
   max-width: 220px;
-  margin-top: 40px;
+  margin-top: 0px;
 
 }
 
@@ -877,7 +876,7 @@ text-align: left;
   text-align: center;
   line-height: 20px;
   letter-spacing: 1px;
-  color:gray;
+  color:#444444;
   font-family: Gotham-Light;
   max-width: 300px;
 }
@@ -989,15 +988,22 @@ border: black 1px solid;
 /*
 END LIGHTBOX*/
 
+@media screen and (min-width: 1440px) {
 
+  #brain-gain-section, #kids-safety-section, #this-way-ahead-section{
+      margin-left: 18%;
+      margin-right: 18%;
+    }
+
+  }
 
 
 
 @media screen and (min-width: 1340px) {
 
   #brain-gain-section, #kids-safety-section, #this-way-ahead-section{
-      margin-left: 18%;
-      margin-right: 18%;
+      margin-left: 14%;
+      margin-right: 14%;
     }
 
     .button-expand {
@@ -1065,6 +1071,22 @@ a.shop-now{
 
 @media screen and (max-width: 992px) {
 
+
+  p.marshall-story-text{
+  text-align: left;
+  font-weight: 100;
+  font-size: 18px;
+  color: #595959;
+  margin-bottom: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+p.summer-brain-gain-paragraph{
+   color: #737373;
+}
     ul.nav-group, ul.nav-group-mobile{
     display: inline;
   }
@@ -1116,6 +1138,8 @@ a.shop-now{
 
   .nav-item-icon{
     height: 30px;
+    padding-top: 17px;
+
   }
 
 
@@ -1177,7 +1201,7 @@ a.shop-now{
   margin-top: 0px;
   margin-bottom: 20px;
   text-align: center;
-  color: #444444;
+  color: #595959;
   font-size: 25px;
   padding-bottom: 20px;
   padding-top: 10px;
@@ -1278,7 +1302,7 @@ p.malani-story-text-mobile{
   display: inline;
   text-align: left;
   font-size: 20px;
-  color: #737373;
+  color: #595959;
   line-height: 30px;
   letter-spacing: 1px;
   font-family: Gotham-Light;
@@ -1315,7 +1339,7 @@ p.summer-brain-gain-paragraph{
   margin-left: 5%;
   margin-right: 10%;
   font-size: 20px;
-  color:#444444;
+  color: #595959;
 
 }
 
@@ -1400,7 +1424,7 @@ margin-top:30px;
   text-align: center;
   line-height: 20px;
   letter-spacing: 1px;
-  color:gray;
+  color:#595959;
   font-family: Gotham-Light;
   max-width: 300px;
   margin-left: auto;
@@ -1507,8 +1531,7 @@ margin-top:30px;
   }
 
   .nav-group{
-    margin-top: 30px;
-    height: 30px;
+    height: 50px;
 
   }
 
@@ -1561,8 +1584,12 @@ margin-top:30px;
 
   .button-expand{
   max-width: 160px;
-  margin-top: 30px;
+  margin-top: 0px;
 
+}
+
+.back-to-top-mobile {
+    max-width: 20px;
 }
 }
 
@@ -1589,6 +1616,16 @@ margin-top:30px;
 
 }
 
+
+    @media screen and (max-width: 400px) {
+  .discover-button{
+      margin-top: 40px;
+    }
+
+.this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav {
+    font-size: 10px;
+
+}
 
 
 
