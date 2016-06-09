@@ -557,7 +557,7 @@ i.brain-gain-expand{
 
 
 .lockup{
-  margin-left:40px;
+text-align: center;
 }
 
 /*head start
@@ -940,7 +940,7 @@ button.find-a-store-button{
 
 /*show and hide*/
 .mom-quote{
-      float: right;
+    float: right;
     margin-right: 60px;
     margin-top: 160px;
     max-width: 700px;
@@ -1065,6 +1065,7 @@ a.shop-now{
 
 
 @media screen and (max-width: 992px) {
+
     ul.nav-group, ul.nav-group-mobile{
     display: inline;
   }
@@ -1155,15 +1156,7 @@ a.shop-now{
   font-size:17px;
 }
 
-.this-way-ahead-nav{
 
-}
-.brain-gain-nav{
-
-}
-.kids-safety-nav{
-
-}
 
 /*cloud-promo*/
 
@@ -1216,13 +1209,15 @@ i.fa-chevron-down{
 
 .section-description{
     color: #595959;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
     line-height: 35px;
     font-size: 22px;
     font-family: Gotham-Light;
     letter-spacing: 1px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .hide-on-mobile{
@@ -1248,11 +1243,36 @@ margin-top: 70px;
 
 .malani-story-title-mobile{
   display: inline;
-  margin-left: -35px;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: left;
 }
+
+.malani-story-title-mobile-div{
+  text-align: left;
+  margin-left: 3%;
+}
+
+.img-block-mobile{
+      max-width: 94%;
+}
+
+.triangle-and-quote{
+  display:none;
+}
+
+.head-start-info{
+  margin-bottom: 60px;
+
+}
+
+
+.marshall-reading-mobile {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 
 
 p.malani-story-text-mobile{
@@ -1263,10 +1283,20 @@ p.malani-story-text-mobile{
   line-height: 30px;
   letter-spacing: 1px;
   font-family: Gotham-Light;
-  margin-bottom: 100px;
-
-
+   max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
+
+div.malani-story-text-mobile-container{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+  }
+
 
 img.Natalia-bubble {
    position: relative;
@@ -1313,8 +1343,10 @@ p.quote-title{
   margin-right: 50px;
   margin-left: 3%;
   margin-bottom: 100px;
+}
 
-  
+.kid-col{
+  text-align: center;
 }
 
 .bubble-marshall{
@@ -1339,6 +1371,26 @@ p.quote-title{
 }
 
 
+.lockup{
+  margin-left:0px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.kid-col-2{
+margin-top:30px;
+}
+
+
+.lockup-img{
+    width: 40%;
+
+}
+
+.mom-quote{
+       float: none; 
+}
+
 
 }
 
@@ -1349,6 +1401,14 @@ p.quote-title{
 
   padding-bottom: 100px;
 }
+
+
+.lockup-img{
+    width: 50%;
+
+}
+
+
 
 /*  show/hide*/
 
@@ -1407,8 +1467,8 @@ p.quote-title{
 
 
   .mini-bucket-stat{
-    margin-left: 20%;
-    margin-right:20%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .malani-story-text-mobile-container {
@@ -1456,15 +1516,6 @@ p.quote-title{
 
 }
 
-.lockup{
-  margin-left:0px;
-  text-align: center;
-}
-
-
-.lockup-img{
-    width: 70%;
-}
 
 .lockup-img-brain-gain{
     width: 60%;
