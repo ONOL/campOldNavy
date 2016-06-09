@@ -88,9 +88,12 @@
 
 #this-way-ahead, #kids-safety, #brain-gain {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     }
 
+#kids-safety, #brain-gain{
+   background-image: url("imgs/cloudy-cover.png");
+}
 
   #kids-safety-section, #this-way-ahead-section, #brain-gain-section{
    background-color: white; 
@@ -512,14 +515,14 @@ img.strikes-a-cord{
 }
 
 .section-description{
-  color: gray;
-  margin-top: 30px;
-  margin-bottom: 60px;
-  line-height: 48px;
-  font-size: 28px;
-  font-weight: 100;
-  font-family: sans-serif;
-  margin-left: 100px;
+    color: #737373;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 35px;
+    font-size: 22px;
+    font-family: Gotham-Light;
+    letter-spacing: 1px;
 }
 
 /*summer brain gain*/
@@ -675,10 +678,7 @@ a.legal{
 }
 
 
-.MaLani-redBar{
-  margin-top: 10px;
-  margin-bottom:10px;
-}
+
 
 /*  .malani-story-text-two{
   text-align: left;
@@ -727,6 +727,13 @@ a.legal{
 }
 
 
+img.Natalia-bubble{
+  margin-top: -20px;
+  z-index: 100;
+  position: absolute;
+  display:block;
+}
+
 img.Malani-bubble{
   margin-top: 10px;
   z-index: 100;
@@ -741,8 +748,6 @@ img.Malani-bubble{
 
 .rocket-quote{
   margin-top: 140px;
-  margin-right: 60px;
-  margin-left: -60px;
 }
 
 .blue-flame{
@@ -1192,12 +1197,14 @@ i.fa-chevron-down{
 /*BRAIN GAIN SECTION*/
 
 .section-description{
-  color:#444444;
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: 40px;
-  font-size: 24px;
+    color: #595959;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 35px;
+    font-size: 22px;
+    font-family: Gotham-Light;
+    letter-spacing: 1px;
 }
 
 .hide-on-mobile{
@@ -1240,6 +1247,10 @@ p.malani-story-text-mobile{
   font-family: Gotham-Light;
   margin-bottom: 50px;
 
+}
+
+img.Natalia-bubble {
+   position: relative;
 }
 
 img.Malani-bubble{
