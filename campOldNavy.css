@@ -880,7 +880,6 @@ text-align: left;
   color:gray;
   font-family: Gotham-Light;
   max-width: 300px;
-
 }
 
  .watch-out, .check, .dotted-left{
@@ -1387,8 +1386,35 @@ margin-top:30px;
 
 }
 
+.check-img{
+   margin-top: 50px;
+}
+
 .mom-quote{
        float: none; 
+}
+
+.check-tell-watchout-text{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color:gray;
+  font-family: Gotham-Light;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.dotted-left-img{
+    margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.watch-out, .check, .dotted-left{
+  margin-left: 0px;
+  text-align: center;
 }
 
 
