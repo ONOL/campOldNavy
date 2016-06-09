@@ -66,9 +66,10 @@
         
         <a class="smoothScroll" href="#three-buckets"><li class="back-to-top"> <img class="back-to-top" src="imgs/BackToTop.png"><img/></li></a>
         <a class="smoothScroll" href="#three-buckets"><li class="back-to-top-logo"> <img class="camp-old-navy-logo-nav" src="imgs/CON_LOGO_vector.svg"><img/></li></a>
-        <a class="smoothScroll" href="#kids-safety "><li class="nav-item kids-safety-nav"><img class="nav-item-icon"src="imgs/Icon_KidsSafety.png"></img><p class="nav-text">KIDS SAFETY</p></li></a>
-        <a class="smoothScroll" href="#brain-gain "><li class="nav-item brain-gain-nav"><img class="nav-item-icon"src="imgs/Icon_BrainGain.png"></img><p class="nav-text">BRAIN GAIN</p></li></a>
-        <a class="smoothScroll" href="#this-way-ahead"><li class="nav-item this-way-ahead-nav"><img class="nav-item-icon"src="imgs/Icon_TWA.png"></img><p class="nav-text">THIS WAY AHEAD</p>
+
+        <a class="smoothScroll" href="#kids-safety-two"><li class="nav-item kids-safety-nav"><img class="nav-item-icon"src="imgs/Icon_KidsSafety.png"></img><p class="nav-text">KIDS SAFETY</p></li></a>
+        <a class="smoothScroll" href="#brain-gain-two"><li class="nav-item brain-gain-nav"><img class="nav-item-icon"src="imgs/Icon_BrainGain.png"></img><p class="nav-text">BRAIN GAIN</p></li></a>
+        <a class="smoothScroll" href="#this-way-ahead-two"><li class="nav-item this-way-ahead-nav"><img class="nav-item-icon"src="imgs/Icon_TWA.png"></img><p class="nav-text">THIS WAY AHEAD</p>
           <a  href="http://www.oldnavy.com/"><li class="logo"><img class='shop-old-navy' src="imgs/ShopOldNavy.png"></img></li></a>
         </ul>
 
@@ -103,7 +104,7 @@
 
   <div class=""><img class="big img-responsive" src='imgs/Big.png'></img></div>
   <div class=""><img class="so-do-we-img img-responsive" src='imgs/AndSoDoWe.png'></img></div>
-  <div class="all-kids-deserve"> All kids deserve the chance to make their dreams real.<br> Since 1999 Camp Old Navy has offered kids the education and real-life <br> experiences they need to turn dreams into goals they can reach.</div>
+  <div class="all-kids-deserve"> All kids deserve the chance to make their dreams real.<br> Since 1999 Camp Old Navy has offered kids the education and real-life <br> experiences they need to turn dreams into achievable goals.</div>
   <a class='smoothScroll' href="#three-buckets"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
 
 </div><!--  end id="kids-dream-big-group"> -->
@@ -118,7 +119,7 @@
 <div id= "three-buckets">
   <div class='row bucket-group'>
 
-  <a class="smoothScroll" href="#this-way-ahead"><div class='bucket-1 col-md-3'>
+  <a class="smoothScroll" href="#this-way-ahead-two"><div class='bucket-1 col-md-3'>
   <p><img class="icon-img-bucket"  src="imgs/Icon_TWA.png"></img></p>
   <p class= "bucket-title">THIS WAY AHEAD</p>
   <p class="grades">BIGS 16-24 </p>
@@ -129,7 +130,7 @@
 </a>
 
 
-  <a class="smoothScroll" href=" #brain-gain "><div class='bucket-2 col-md-3'>
+  <a class="smoothScroll" href=" #brain-gain-two"><div class='bucket-2 col-md-3'>
     <p><img class="icon-img-bucket"  src="imgs/Icon_BrainGain.png"></img></p>
     <p class= "bucket-title" >BRAIN GAIN</p>
     <div class="grades-div">
@@ -141,7 +142,7 @@
   </div>
 </a>
 
-   <a class="smoothScroll" href="#kids-safety"><div class=' bucket-3 col-md-3'>
+   <a class="smoothScroll" href="#kids-safety-two"><div class=' bucket-3 col-md-3'>
       <p><img class="icon-img-bucket" src="imgs/Icon_KidsSafety.png"></img></p>
       <p class= "bucket-title">KIDS' SAFETY </p>
       <p class="grades">LITTLES 2-5 </p>
@@ -156,7 +157,7 @@
 </div>
 
 </div>
-
+   <div id="this-way-ahead-two"> </div>
   <div id="this-way-ahead"class= "section-description-photo hide-on-mobile row">
   <img class="img-responsive" src="imgs/TWA_Section.png"></img>
   </div> <!-- end row -->
@@ -354,7 +355,7 @@
 
 </section>
 </section>
-
+   <div id="brain-gain-two"> </div>
   <div id="brain-gain" class= "section-description-photo hide-on-mobile row">
   <img class="img-responsive" src="imgs/BrainGain_Section.png"></img>
   </div> <!-- end row -->
@@ -557,7 +558,8 @@ Whether he's playing a math game or reading a book on science, 10-year-old Marsh
 </div> <!-- end hide-and-expand-brain-gain -->
 </section>
 
-  <div id="kids-safety" class= "section-description-photo hide-on-mobile row">
+  <div id="kids-safety-two"></div>
+  <div id="kids-safety" class= "kids-safety-scroll section-description-photo hide-on-mobile row">
   <img class="img-responsive" src="imgs/KidsSafety_Section.png"></img>
   </div> <!-- end row -->
 
@@ -727,38 +729,6 @@ else if ($(document).scrollTop() < 620) {    // if the scroll is less than 620
 
 
 
-// $(document).ready(function(){
-//  console.log($(".lightbox".css.display));
-//   var style = $(".lightbox").style.display;
-
-
-//   if  (style == "block") {  
-//    $('ul.nav-group, ul.nav-group-mobile').css("background-color", "rgba(255, 255, 255, .9)");
-//    $('img.promo-footer, a.promo-footer-x').css("background-color", "rgba(255, 255, 255, .9)"); 
-
-// }
-//  });
-
-
-// $(window).on('resize scroll', (function(){
-//   if ( ($(window).width() > 991) && ($(document).scrollTop() < 620) ) {
-//      $('ul.nav-group, ul.nav-group-mobile').fadeOut(200);
-//      $('img.camp-old-navy-logo').fadeIn(200);
-//      $('div.promo-cloud-1').fadeIn(200);
-//      $('img.promo-footer, a.promo-footer-x').fadeIn(200);
-// }
-//  }));
-
-
-// $(window).on('resize scroll', (function(){
-//   if  ($(document).scrollTop() < 620)  {
-//      $('ul.nav-group, ul.nav-group-mobile').show();
-//      $('img.camp-old-navy-logo').hide();
-//      $('div.promo-cloud-1').hide();
-//      $('img.promo-footer, a.promo-footer-x').hide();
-// }
-//  }));
-
 
 
 
@@ -846,6 +816,23 @@ else if ($(document).scrollTop() < 620) {    // if the scroll is less than 620
    });
   });
 
+
+  $(function() {
+  // This will select everything with the class smoothScroll
+  // This should prevent problems with carousel, scrollspy, etc...
+  $('.smoothScroll2').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
 
 
 
