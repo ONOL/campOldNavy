@@ -642,7 +642,7 @@ p.marshall-story-text{
 
 a.shop-now{
   position: absolute;
-  margin-top: 295px;
+  margin-top: 300px;
   margin-left: 230px;
   font-family: Gotham-Bold;
   color: black;
@@ -651,13 +651,14 @@ a.shop-now{
 }
 
 a.legal{
-  position: absolute;
-  margin-top: 320px;
-  margin-left: 245px;
-  font-family: Gotham-Bold;
-  color: black;
-  font-size: 13px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 250px;
+    font-family: Gotham-Bold;
+    color: black;
+    font-size: 12px;
 }
+
 
 
 .charge-ahead-footer{
@@ -1044,12 +1045,12 @@ img.shop-old-navy{
   margin-left: 238px;
   font-family: Gotham-Bold;
   color: black;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 a.shop-now{
   position: absolute;
-  margin-top: 285px;
+  margin-top: 290px;
   margin-left: 220px;
   font-family: Gotham-Bold;
   color: black;
@@ -1545,7 +1546,9 @@ margin-top:30px;
   }
 
   
-
+.promo-footer-pop-up-2{    
+  margin-bottom: -3px;
+  margin-top: -3px;}
 
   .this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav{
     font-size:13px;

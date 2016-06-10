@@ -84,12 +84,14 @@
 
 <!-- <img src="imgs/pop-up-footer.png"></img> -->
 <img class="promo-footer" src="imgs/promo-footer.png"></img>
+<img class="promo-footer-pop-up img-responsive" style="display:none;" src="imgs/legal-pop-up-footer.png"></img>
 
 </div>
 
 <div class="footer navbar-fixed-bottom charge-ahead-footer-mobile">
 <a class='promo-footer-x'><p class=" promo-close-footer-2 ">X</p></a>
-<img class="promo-footer" src="imgs/promo-footer-mobile.png"></img>
+<img class="promo-footer-mobile img-responsive" src="imgs/promo-footer-mobile.png"></img>
+<img class="promo-footer-pop-up-2 img-responsive" style="display:none;" src="imgs/legal-pop-up-footer.png"></img>
 </div>
 
 
@@ -754,11 +756,11 @@ $(window).on('resize scroll', (function(){
      $('ul.nav-group, ul.nav-group-mobile').fadeIn(200);
      $('img.camp-old-navy-logo').fadeOut(200);
      $('div.promo-cloud-1').fadeOut(200);
-     $('img.promo-footer, a.promo-footer-x').fadeOut(200);
+     $('img.promo-footer, img.promo-footer-mobile, a.promo-footer-x, img.promo-footer-pop-up-2, img.promo-footer-pop-up').fadeOut(200);
 }
 
   if ($(document).scrollTop() > 620) {  // if the scroll is more than 620 
-     $('img.promo-footer, a.promo-footer-x').fadeOut(200);
+     $('img.promo-footer, img.promo-footer-mobile, a.promo-footer-x, img.promo-footer-pop-up-2, img.promo-footer-pop-up').fadeOut(200);
 }
 
 
@@ -776,7 +778,7 @@ else if ($(document).scrollTop() < 620) {    // if the scroll is less than 620
      $('ul.nav-group, ul.nav-group-mobile').fadeIn(200);
      $('img.camp-old-navy-logo').fadeOut(200);
      $('div.promo-cloud-1').fadeOut(200);
-     $('img.promo-footer, a.promo-footer-x').fadeIn(200);
+     $('img.promo-footer, img.promo-footer-mobile, a.promo-footer-x').fadeIn(200);
 }  
 
 
@@ -873,6 +875,32 @@ else if ($(document).scrollTop() < 620) {    // if the scroll is less than 620
      $("hide-and-expand-TWA").fadeOut(200);
    });
   });
+
+
+    $(function() {
+    $('img.promo-footer').click(function() {
+     $("img.promo-footer-pop-up").show();
+   });
+  });
+
+  //       $(function() {
+  //   $('img.promo-footer').click(function() {
+  //    $("img.promo-footer-pop-up").hide();
+  //  });
+  // });
+
+        $(function() {
+    $('.promo-footer-mobile').click(function() {
+     $("img.promo-footer-pop-up-2").show();
+   });
+  });
+
+
+  //       $(function() {
+  //   $('.promo-footer-mobile').click(function() {
+  //    $(".promo-footer-pop-up-2").hide();
+  //  });
+  // });
 
 
   $(function() {
