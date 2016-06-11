@@ -1595,6 +1595,10 @@ margin-right: 7px;
 
 }
 
+.current{
+  color: red;
+}
+
 
 .lockup-img-brain-gain{
     width: 60%;
@@ -1631,6 +1635,10 @@ margin-right: 7px;
       margin-top: 40px;
     }
 
+    .nav-item-icon{
+      display: none;
+    }
+
 .nav-item{
 margin-left: 5px;
 margin-right: 5px;
@@ -1659,7 +1667,7 @@ margin-right: 5px;
     }
 
 .this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav {
-    font-size: 10px;
+    font-size: 11px;
 
 }
 
