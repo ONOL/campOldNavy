@@ -363,7 +363,7 @@ p.nav-text{
     line-height: 25px;
     color: #444444;
     font-weight: 220;
-    width: 200px;
+    width: 210px;
     font-family: Gotham-Light;
     margin-left: auto;
     margin-right: auto;
@@ -618,7 +618,7 @@ div.head-start{
 
 .marshalls-story{
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 10px;
     max-width: 40%;
 }
@@ -992,6 +992,21 @@ border: black 1px solid;
   display: block;
 }
 
+  p.marshall-story-text{
+    text-align: left;
+    font-weight: 100;
+    font-size: 20px;
+    color: #595959;
+    margin-bottom: 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    padding-right: 20px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Gotham-Light;
+}
 
 
 /*
@@ -1487,6 +1502,14 @@ margin-right: 7px;
 
 
 @media screen and (max-width: 567px) {
+
+.marshalls-story{
+    max-width: 50%;
+}
+
+.malani-story-title-mobile{
+  max-width: 50%;
+}
 
 
 
