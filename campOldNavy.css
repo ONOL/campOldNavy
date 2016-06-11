@@ -788,6 +788,8 @@ img.Malani-bubble{
 
 .hide-on-desktop{
   display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -1640,8 +1642,8 @@ margin-right: 7px;
     }
 
 .nav-item{
-margin-left: 5px;
-margin-right: 5px;
+margin-left: 3px;
+margin-right: 3px;
 }
 }
 
@@ -1667,7 +1669,7 @@ margin-right: 5px;
     }
 
 .this-way-ahead-nav, .brain-gain-nav, .kids-safety-nav {
-    font-size: 11px;
+    font-size: 10px;
 
 }
 
