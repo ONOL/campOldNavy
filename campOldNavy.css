@@ -625,17 +625,6 @@ div.head-start{
 
 
 
-p.marshall-story-text{
-  text-align: left;
-  font-weight: 100;
-  font-size: 18px;
-  color: #444444;
-  margin-bottom: 20px;
-  line-height: 30px;
-  letter-spacing: 1px;
-  padding-left: 10px;
-  padding-right: 20px;
-}
 
 .photo-marshall{
   margin-top: 30px;
@@ -1002,7 +991,13 @@ border: black 1px solid;
   /** Unhide lightbox **/
   display: block;
 }
+
+
+
 /*
+
+
+
 END LIGHTBOX*/
 
 @media screen and (min-width: 1440px) {
@@ -1090,15 +1085,19 @@ a.shop-now{
 
 
   p.marshall-story-text{
-  text-align: left;
-  font-weight: 100;
-  font-size: 18px;
-  color: #595959;
-  margin-bottom: 20px;
-  line-height: 30px;
-  letter-spacing: 1px;
-  padding-left: 10px;
-  padding-right: 20px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 20px;
+    color: #595959;
+    margin-bottom: 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    padding-right: 20px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Gotham-Light;
 }
 
 p.summer-brain-gain-paragraph{
@@ -1286,6 +1285,7 @@ margin-top: 70px;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: left;
+  max-width: 40%;
 }
 
 .malani-story-title-mobile-div{
@@ -1389,6 +1389,10 @@ p.quote-title{
   text-align: center;
 }
 
+.kid-col-2{
+  text-align: center;
+}
+
 .bubble-marshall{
  position: relative;
  margin-top: -20px;
@@ -1420,6 +1424,17 @@ p.quote-title{
 .kid-col-2{
 margin-top:30px;
 }
+
+.auto-center{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.center{
+ text-align: center;
+}
+
+
 
 
 .lockup-img{
@@ -1555,10 +1570,7 @@ margin-right: 7px;
     margin-bottom: 40px;
   }
 
-  p.marshall-story-text{
-    padding-left: 10px;
-    padding-right: 0px;
-  }
+
 
   .nav-group{
     height: 50px;
